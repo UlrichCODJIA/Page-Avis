@@ -1,5 +1,5 @@
 # Page-Avis
-> The Membre-groupe extension is an extension that allows us to extract the UID's, first and last names of people who post reviews on a Facebook page.
+> The Page-Avis extension is an extension that allows us to extract the UID's, first and last names of people who post reviews on a Facebook page.
 
 ## Requirements  (Prerequisites)
 Tools and packages required to successfully install this project.
