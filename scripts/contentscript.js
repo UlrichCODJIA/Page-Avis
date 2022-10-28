@@ -211,7 +211,7 @@ function create_payload(cursor, doc_id, page_id, lsd, __spin_t, __spin_b, __rev_
 
 function get_uid(progress, first_user_list, all_users_uid, cursor, doc_id, page_id, lsd, __spin_t, __spin_b, __rev_and__spin_r, fb_dtsg, __hsi, jazoest, __comet_req, __user, __a, limit, sort_order_reg) {
 
-  const payload = create_payload();
+  const payload = create_payload(cursor, doc_id, page_id, lsd, __spin_t, __spin_b, __rev_and__spin_r, fb_dtsg, __hsi, jazoest, __comet_req, __user, __a, sort_order_reg);
 
   const myHeaders = new Headers({
     'scheme': 'https',
